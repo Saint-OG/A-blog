@@ -1,0 +1,33 @@
+<h1>Add Student</h1>
+
+<form action="addrecord/" method="post">
+    {% csrf_token %}
+    First Name:<br>
+    <input name="first">
+    <br><br>
+    Last Name:<br>
+    <input name="last">
+    <br><br>
+
+    Date of birth:<br>
+    <input type="date" name="dob">
+    <br><br>
+
+    Course:<br>
+    <input name="course">
+    <br><br>
+
+    Matric:<br>
+    <input name="matric">
+    <br><br>
+
+    Sex:<br>
+    <input name="sex">
+    <br><br>
+
+    Phone Number:<br>
+    <input name="number">
+    <br><br>
+    
+    <input type="submit" value="Submit">
+</form>
